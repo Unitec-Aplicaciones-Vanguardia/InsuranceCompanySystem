@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceCompanySystem.Console", "InsuranceCompanySystem.Console\InsuranceCompanySystem.Console.csproj", "{19CE3A98-5EA4-4BCE-A16F-81C2689ED7FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8BCE8E2-DA70-441C-A692-04175219EE19}"
+	ProjectSection(SolutionItems) = preProject
+		PolicyExamples.txt = PolicyExamples.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceCompanySystem.Core", "InsuranceCompanySystem.Core\InsuranceCompanySystem.Core.csproj", "{66F3F83C-40F3-403E-B0AF-FA0E256DA2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceCompanySystem.Infrastructure", "InsuranceCompanySystem.Infrastructure\InsuranceCompanySystem.Infrastructure.csproj", "{F4D988CF-9230-4E5A-B86A-E7DEBAC71E8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19CE3A98-5EA4-4BCE-A16F-81C2689ED7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CE3A98-5EA4-4BCE-A16F-81C2689ED7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CE3A98-5EA4-4BCE-A16F-81C2689ED7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CE3A98-5EA4-4BCE-A16F-81C2689ED7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F3F83C-40F3-403E-B0AF-FA0E256DA2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F3F83C-40F3-403E-B0AF-FA0E256DA2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F3F83C-40F3-403E-B0AF-FA0E256DA2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F3F83C-40F3-403E-B0AF-FA0E256DA2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D988CF-9230-4E5A-B86A-E7DEBAC71E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D988CF-9230-4E5A-B86A-E7DEBAC71E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D988CF-9230-4E5A-B86A-E7DEBAC71E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D988CF-9230-4E5A-B86A-E7DEBAC71E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8206D3D3-32A6-42FF-857F-C9F783133DD4}
+	EndGlobalSection
+EndGlobal
